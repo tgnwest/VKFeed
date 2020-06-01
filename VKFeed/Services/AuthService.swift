@@ -17,11 +17,16 @@ protocol AuthServiceDelegate: class {
     
 }
 
-class AuthService: NSObject, VKSdkDelegate, VKSdkUIDelegate {
-    
+final class AuthService: NSObject, VKSdkDelegate, VKSdkUIDelegate {
     
     private let appId = "7493593"
     private let vkSdk: VKSdk
+    
+    weak var delegate: AuthServiceDelegate?
+    
+    var token: String? {
+        return VKSdk.accessToken()?.accessToken
+    }
     
     override init() {
         vkSdk = VKSdk.initialize(withAppId: appId)
@@ -46,8 +51,6 @@ class AuthService: NSObject, VKSdkDelegate, VKSdkUIDelegate {
             }
         }
     }
-    
-    weak var delegate: AuthServiceDelegate?
     
     func vkSdkAccessAuthorizationFinished(with result: VKAuthorizationResult!) {
         print(#function)

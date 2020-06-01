@@ -18,6 +18,8 @@
 		FA6213DB24851E3300C3A502 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6213DA24851E3300C3A502 /* AuthViewController.storyboard */; };
 		FA6213DD2485263000C3A502 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6213DC2485263000C3A502 /* FeedViewController.swift */; };
 		FA6213DF2485264B00C3A502 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6213DE2485264B00C3A502 /* FeedViewController.storyboard */; };
+		FA684CA024857BA000038382 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA684C9F24857BA000038382 /* NetworkService.swift */; };
+		FA684CA224857D2600038382 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA684CA124857D2600038382 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		FA6213DA24851E3300C3A502 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		FA6213DC2485263000C3A502 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		FA6213DE2485264B00C3A502 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
+		FA684C9F24857BA000038382 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FA684CA124857D2600038382 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				FA6213D724851C8100C3A502 /* AuthService.swift */,
+				FA684C9F24857BA000038382 /* NetworkService.swift */,
+				FA684CA124857D2600038382 /* API.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -226,7 +232,9 @@
 				FA6213BE2485145C00C3A502 /* AppDelegate.swift in Sources */,
 				FA6213DD2485263000C3A502 /* FeedViewController.swift in Sources */,
 				FA6213C02485145C00C3A502 /* SceneDelegate.swift in Sources */,
+				FA684CA024857BA000038382 /* NetworkService.swift in Sources */,
 				FA6213D824851C8100C3A502 /* AuthService.swift in Sources */,
+				FA684CA224857D2600038382 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
