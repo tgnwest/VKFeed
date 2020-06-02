@@ -18,8 +18,6 @@
 		FA6213D52485182D00C3A502 /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA6213D32485182D00C3A502 /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA6213D824851C8100C3A502 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6213D724851C8100C3A502 /* AuthService.swift */; };
 		FA6213DB24851E3300C3A502 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6213DA24851E3300C3A502 /* AuthViewController.storyboard */; };
-		FA6213DD2485263000C3A502 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6213DC2485263000C3A502 /* FeedViewController.swift */; };
-		FA6213DF2485264B00C3A502 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6213DE2485264B00C3A502 /* FeedViewController.storyboard */; };
 		FA684CA024857BA000038382 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA684C9F24857BA000038382 /* NetworkService.swift */; };
 		FA684CA224857D2600038382 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA684CA124857D2600038382 /* API.swift */; };
 		FAA5DBD824865E4D00CE41CD /* NewsfeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DBD124865E4D00CE41CD /* NewsfeedPresenter.swift */; };
@@ -60,8 +58,6 @@
 		FA6213D32485182D00C3A502 /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
 		FA6213D724851C8100C3A502 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FA6213DA24851E3300C3A502 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
-		FA6213DC2485263000C3A502 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		FA6213DE2485264B00C3A502 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
 		FA684C9F24857BA000038382 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FA684CA124857D2600038382 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FAA5DBD124865E4D00CE41CD /* NewsfeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedPresenter.swift; sourceTree = "<group>"; };
@@ -119,7 +115,6 @@
 				FA6213BD2485145C00C3A502 /* AppDelegate.swift */,
 				FA6213BF2485145C00C3A502 /* SceneDelegate.swift */,
 				FA6213E12485270600C3A502 /* Auth */,
-				FA6213E0248526BF00C3A502 /* FeedViewController */,
 				FA6213D924851C8800C3A502 /* Services */,
 				FA6213C62485145D00C3A502 /* Assets.xcassets */,
 				FA6213C82485145D00C3A502 /* LaunchScreen.storyboard */,
@@ -146,15 +141,6 @@
 				FA409F0724863006001D901B /* NetworkDataFetcher.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		FA6213E0248526BF00C3A502 /* FeedViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FA6213DC2485263000C3A502 /* FeedViewController.swift */,
-				FA6213DE2485264B00C3A502 /* FeedViewController.storyboard */,
-			);
-			path = FeedViewController;
 			sourceTree = "<group>";
 		};
 		FA6213E12485270600C3A502 /* Auth */ = {
@@ -255,7 +241,6 @@
 				FAA5DBE0248662F100CE41CD /* NewsfeedViewController.storyboard in Resources */,
 				FA6213C72485145D00C3A502 /* Assets.xcassets in Resources */,
 				FAA5DBE5248669A300CE41CD /* NewsfeedCell.xib in Resources */,
-				FA6213DF2485264B00C3A502 /* FeedViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +277,6 @@
 				FA6213C22485145C00C3A502 /* AuthViewController.swift in Sources */,
 				FA6213BE2485145C00C3A502 /* AppDelegate.swift in Sources */,
 				FAA5DBD824865E4D00CE41CD /* NewsfeedPresenter.swift in Sources */,
-				FA6213DD2485263000C3A502 /* FeedViewController.swift in Sources */,
 				FAA5DBDA24865E4D00CE41CD /* NewsfeedRouter.swift in Sources */,
 				FA6213C02485145C00C3A502 /* SceneDelegate.swift in Sources */,
 				FA684CA024857BA000038382 /* NetworkService.swift in Sources */,
