@@ -29,6 +29,7 @@
 		FAA5DBE0248662F100CE41CD /* NewsfeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5DBDF248662F100CE41CD /* NewsfeedViewController.storyboard */; };
 		FAA5DBE32486695C00CE41CD /* NewsfeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DBE22486695C00CE41CD /* NewsfeedCell.swift */; };
 		FAA5DBE5248669A300CE41CD /* NewsfeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5DBE4248669A300CE41CD /* NewsfeedCell.xib */; };
+		FAE7C7402487B60400040960 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C73F2487B60400040960 /* WebImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		FAA5DBDF248662F100CE41CD /* NewsfeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsfeedViewController.storyboard; sourceTree = "<group>"; };
 		FAA5DBE22486695C00CE41CD /* NewsfeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedCell.swift; sourceTree = "<group>"; };
 		FAA5DBE4248669A300CE41CD /* NewsfeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsfeedCell.xib; sourceTree = "<group>"; };
+		FAE7C73F2487B60400040960 /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		FA6213BC2485145C00C3A502 /* VKFeed */ = {
 			isa = PBXGroup;
 			children = (
+				FAE7C73E2487B5EA00040960 /* Helpers */,
 				FAA5DBD024865E0C00CE41CD /* Newsfeed */,
 				FA6213BD2485145C00C3A502 /* AppDelegate.swift */,
 				FA6213BF2485145C00C3A502 /* SceneDelegate.swift */,
@@ -174,6 +177,14 @@
 				FAA5DBE4248669A300CE41CD /* NewsfeedCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		FAE7C73E2487B5EA00040960 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C73F2487B60400040960 /* WebImageView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 				FA6213C02485145C00C3A502 /* SceneDelegate.swift in Sources */,
 				FA684CA024857BA000038382 /* NetworkService.swift in Sources */,
 				FAA5DBDB24865E4D00CE41CD /* NewsfeedModels.swift in Sources */,
+				FAE7C7402487B60400040960 /* WebImageView.swift in Sources */,
 				FA409F0824863006001D901B /* NetworkDataFetcher.swift in Sources */,
 				FAA5DBD924865E4D00CE41CD /* NewsfeedWorker.swift in Sources */,
 				FA6213D824851C8100C3A502 /* AuthService.swift in Sources */,
